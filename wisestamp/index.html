@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Junior Front End assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="mainDiv">
+			<div class="logo">
+				<img src="images/mail.png" alt="mail" > 
+				<div class="welcome">
+					<p>Welcome to</br><span>Mail App</span></p>
+				</div>
+			</div>
+			<div id="myForm" class="mainForm left-arrow">
+				<form method="post" action="logged.html">
+					<div class="inputWithIcon">
+						<input type="text" placeholder="Enter your name" required>
+						<i class="fa fa-user fa-lg" aria-hidden="true"></i>
+					</div>	
+					<div class="inputWithIcon">
+						<input type="password" placeholder="Password" required>
+						<i class="fa fa-lock fa-lg" aria-hidden="true"></i>
+					</div>
+					 <button id="submitBtn" value="Submit">Login</button>
+				</form>
+				<div class="lost"><a href="#">Lost your password?</a></div>
+			</div>
+		</div>
+		
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>		
+<script src="js/script.js"></script>
+	</body>
+</html>
